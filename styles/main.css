@@ -27,6 +27,7 @@ html{
     gap: 1rem;
     padding-top: 1rem;
     padding-bottom: 1.3rem;
+    z-index: 10;
 }
 
 .main-logo{

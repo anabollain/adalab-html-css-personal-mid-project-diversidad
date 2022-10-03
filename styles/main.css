@@ -84,6 +84,10 @@ html{
     padding: 2rem 3rem 2rem 3rem;
 }
 
+.nav-menu{
+    padding-top: 0;
+}
+
 .main-title{
     font-size: 4rem;
     line-height: 4.5rem;

@@ -13,6 +13,8 @@ html{
     font-size: 62.5%;
 }
 
+/* HEADER */
+
 .header{
     width: 100vw;
     position: fixed;
@@ -32,6 +34,7 @@ html{
 }
 
 .nav-menu{
+    list-style: none;
     padding-top: 1rem;
     display: flex;
     gap: 2rem;
@@ -44,6 +47,8 @@ html{
     font-weight: 400;
     text-decoration: none;
 }
+
+/* MAIN */
 
 .main{
     background-color: var(--background-color);
@@ -63,6 +68,23 @@ html{
 }
 
 .main-title-br{
-    width: 100vw;
+    /*width: 100vw;*/
     display: block;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px){
+
+.header{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+.main-title{
+    font-size: 4rem;
+    line-height: 4.5rem;
+}
+
 }

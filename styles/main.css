@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color: #3CDBC0;
+    --menu-text-color: #4a4a4a;
+    --main-title-color: #FFFFFF;
+    --main-font: 'Rubik', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.3rem;
+}
+
+.main-logo{
+    width: 155px;
+}
+
+.nav-menu{
+    padding-top: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.link{
+    color: var(--menu-text-color);
+    font-family: var(--main-font);
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.main{
+    background-color: var(--background-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title{
+    color: var(--main-title-color);
+    font-family: var(--main-font);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    text-align: center;
+}
+
+.main-title-br{
+    width: 100vw;
+    display: block;
+}

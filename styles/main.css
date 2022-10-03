@@ -36,7 +36,6 @@ html{
 
 .nav-menu{
     list-style: none;
-    padding-top: 1rem;
     display: flex;
     gap: 2rem;
 }
@@ -82,10 +81,6 @@ html{
     flex-direction: row;
     justify-content: space-between;
     padding: 2rem 3rem 2rem 3rem;
-}
-
-.nav-menu{
-    padding-top: 0;
 }
 
 .main-title{
